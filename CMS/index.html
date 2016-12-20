@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>媒体</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="lib/sea.js"></script>
+	<script type="text/javascript">
+		seajs.config({
+			base : "/"
+		});
+		seajs.use("./js/CMS/index");
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="clearfix">
+			<h3 class="fl">媒体列表</h3>
+			<a href="javascript:;" class="fr btn-title">新增</a>
+		</header>
+		<table class="media-list" id="media_list">
+			<tr>
+				<th>媒体id</th>
+				<th>名称</th>
+				<th>栏目数</th>
+				<th>文章数</th>
+				<th>关注人数</th>
+				<th>状态</th>
+				<th>最新更新时间</th>
+				<th>创建时间</th>
+				<th>操作</th>
+			</tr>
+			<tr class="media_id">
+				<td>0001</td>
+				<td>同花顺</td>
+				<td>1</td>
+				<td>123</td>
+				<td>234</td>
+				<td>正常</td>
+				<td>2016-12-09<br>15:30:30</td>
+				<td>2016-11-09<br>15:30:30</td>
+				<td><a href="media.html" class="btn-chg">修改</a><a href="#" class="btn-admin">栏目管理</a><a href="#" class="btn-drop">+</a></td>
+			</tr>
+			<tr class="toggle">
+				<td colspan="9">
+					<table class="column-list">
+						<tr>
+							<th>栏目id</th>
+							<th>名称</th>
+							<th>文章数</th>
+							<th>状态</th>
+							<th>抓取链接</th>
+							<th>爬虫ID</th>
+							<th>最新更新时间</th>
+							<th>创建时间</th>
+							<th>操作</th>
+						</tr>
+						<tr>
+							<td>00007001</td>
+							<td>股票</td>
+							<td>123</td>
+							<td>正常</td>
+							<td><a href="http://www.jiemian.com/lists/89.html">http://www.jiemian.com/lists/89.html</a></td>
+							<td>1262</td>
+							<td>2016-12-09<br>15:30:30</td>
+							<td>2016-11-09<br>15:30:30</td>
+							<td><a href="column.html" class="btn-chg">修改</a><a href="article.html" class="btn-chk">查看文章</a></td>
+						</tr>
+						<tr><td colspan="9"><a href="column.html">+新增栏目</a></td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="media_id">
+				<td>0001</td>
+				<td>同花顺</td>
+				<td>1</td>
+				<td>123</td>
+				<td>234</td>
+				<td>正常</td>
+				<td>2016-12-09<br>15:30:30</td>
+				<td>2016-11-09<br>15:30:30</td>
+				<td><a href="media.html" class="btn-chg">修改</a><a href="#" class="btn-admin">栏目管理</a><a href="#" class="btn-drop">+</a></td>
+			</tr>
+			<tr class="toggle">
+				<td colspan="9">
+					<table class="column-list">
+						<tr>
+							<th>栏目id</th>
+							<th>名称</th>
+							<th>文章数</th>
+							<th>状态</th>
+							<th>抓取链接</th>
+							<th>爬虫ID</th>
+							<th>最新更新时间</th>
+							<th>创建时间</th>
+							<th>操作</th>
+						</tr>
+						<tr>
+							<td>00007001</td>
+							<td>股票</td>
+							<td>123</td>
+							<td>正常</td>
+							<td><a href="http://www.jiemian.com/lists/89.html">http://www.jiemian.com/lists/89.html</a></td>
+							<td>1262</td>
+							<td>2016-12-09<br>15:30:30</td>
+							<td>2016-11-09<br>15:30:30</td>
+							<td><a href="column.html" class="btn-chg">修改</a><a href="article.html" class="btn-chk">查看文章</a></td>
+						</tr>
+						<tr><td colspan="9"><a href="column.html">+新增栏目</a></td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="media_id">
+				<td>0001</td>
+				<td>同花顺</td>
+				<td>1</td>
+				<td>123</td>
+				<td>234</td>
+				<td>正常</td>
+				<td>2016-12-09<br>15:30:30</td>
+				<td>2016-11-09<br>15:30:30</td>
+				<td><a href="media.html" class="btn-chg">修改</a><a href="#" class="btn-admin">栏目管理</a><a href="#" class="btn-drop">+</a></td>
+			</tr>
+			<tr class="toggle">
+				<td colspan="9">
+					<table class="column-list">
+						<tr>
+							<th>栏目id</th>
+							<th>名称</th>
+							<th>文章数</th>
+							<th>状态</th>
+							<th>抓取链接</th>
+							<th>爬虫ID</th>
+							<th>最新更新时间</th>
+							<th>创建时间</th>
+							<th>操作</th>
+						</tr>
+						<tr>
+							<td>00007001</td>
+							<td>股票</td>
+							<td>123</td>
+							<td>正常</td>
+							<td><a href="http://www.jiemian.com/lists/89.html">http://www.jiemian.com/lists/89.html</a></td>
+							<td>1262</td>
+							<td>2016-12-09<br>15:30:30</td>
+							<td>2016-11-09<br>15:30:30</td>
+							<td><a href="column.html" class="btn-chg">修改</a><a href="article.html" class="btn-chk">查看文章</a></td>
+						</tr>
+						<tr><td colspan="9"><a href="column.html">+新增栏目</a></td></tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
